@@ -123,7 +123,7 @@ void delete(struct Node* curr, struct Node* pred) {
 	}
 }
 
-
+//prints all elements in linked list
 void disp() { 							
     struct Node* curr = head;
     while (curr != NULL) {
