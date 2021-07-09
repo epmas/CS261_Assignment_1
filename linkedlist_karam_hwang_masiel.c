@@ -4,8 +4,9 @@
 
 
 struct Node {
+    struct Node* prev;    /*changed node struct to allow for moving backwards through list */
     int data;
-    struct Node* link;
+    struct Node* next;
 };
 
 struct Node* head;
